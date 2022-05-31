@@ -1,0 +1,10 @@
+@import 'lib/bootstrap-reboot';
+@import 'base/variables';
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+@import 'blocks/title';
+@import 'blocks/promo';

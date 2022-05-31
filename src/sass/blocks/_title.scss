@@ -1,0 +1,19 @@
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #fff;
+    span {
+        color: $main-color;
+    }
+    &_fs48 {
+        font-size: 48px;
+        line-height: 58px;
+        color: #0F284D;
+    }
+    &_fs36px {
+        color: #0F284D;
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
