@@ -4,15 +4,31 @@
     background-position: center center;
     background-size: cover;
     padding: 40px 120px 0;
-    &__title{
-        width: 730px;
-        height: 231px;
-    }
     &__wrap {
         margin-top: 101px;
-        display: flex;
+        display: grid;
+        grid-template-columns: 730px 331px;
+        grid-template-rows: auto 129px;
+        gap: 40px 151px;
         justify-content: space-between;
         padding: 0 45px;
+    }
+    &__title{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }    
+    &__update {
+        grid-column: 1;
+        grid-row: 2;
+        align-self: start;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #8F9EB0;
+    }
+    &__picture {
+        grid-column: 2/3;
+        grid-row: 1/3;
     }
 }
 
